@@ -94,7 +94,7 @@
                 <label for="formCreate_name" class="col-sm-2 col-form-label">Действующая акция</label>
                 <input  name="stock" type="text" value="Нет" id="formCreate_stock" class="form-control"/>
             </div>
-            <input type="submit">
+            <input type="submit ">
         </form>
         @php
             if ($viewData['method']=='DELETE'){
